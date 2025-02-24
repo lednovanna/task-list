@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-family: "Dancing Script", serif;;
+    margin: 0 auto;
+  color: #fff;
+  background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 100%;
+    
+    
+}
+
+#toDo-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 40px;
+    gap: 10px;
+    
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    margin-top: 80px;
+    font-size: 56px;
+    text-shadow: 5px 3px black;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+#taskInput {
+    padding: 8px ;
+    width: 400px;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+#taskPriority {
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-style: italic;
+    
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgb(240, 164, 64);
+    border: 2px solid rgb(139, 78, 27);
+    font-weight: 800;
+}
+
+button:hover {
+    background: chartreuse;
+}
+
+#taskList {
+    display: flex;
+   
+    flex-direction: column;
+    font-size: 20px;
+    border-radius: 8px;
+    
+    
+}
+
+#task-container {
+    display: flex;
+    justify-content: center;
+    
+}
