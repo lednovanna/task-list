@@ -3,7 +3,7 @@ class Task {
     constructor(description, status = "new", priority = "middle") {
          this.description = description;
          this.status = status;
-         this.proirity = priority;
+         this.priority = priority;
     }
 
     updateStatus(newStatus) {
